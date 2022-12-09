@@ -2,9 +2,11 @@ manifest:
   remotes:
     - name: slicemk
       url-base: https://github.com/slicemk
+    - name: talf301
+      url-base: https://github.com/talf301
   projects:
     - name: zmk
-      remote: slicemk
+      remote: talf301
       revision: dongle-pr
       import: app/west.yml
   self:
