@@ -216,6 +216,7 @@
 	};
 };
 */
+/{
 keymap { compatible = "zmk,keymap"; alphas {
 bindings = <
 		 		&kp L 	&kp G 	&kp D		&kp H 	&kp U    	&kp O	  
@@ -223,4 +224,5 @@ bindings = <
 			 	 		 		&kp 1 &kp 2  &kp 3	&kp 4	 	
 		>;
 		};
+};
 };
