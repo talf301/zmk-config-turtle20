@@ -221,7 +221,7 @@ keymap { compatible = "zmk,keymap"; alphas {
 bindings = <
 		 		&kp L 	&kp G 	&kp D		&kp H 	&kp U    	&kp O	  
 		&kp I	&kp S	&kp R	&kp T &kp F       &kp M	 	&kp N    	&kp E   		&kp A 	&kp C
-			 	 		 		&kp 1 &kp 2  &kp 3	&kp 4	 	
+			 	 		 		&kp N1 &kp N2  &kp N3	&kp N4	 	
 		>;
 		};
 };
