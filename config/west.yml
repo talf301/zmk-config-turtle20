@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: talf301
-      url-base: https://github.com/talf301
+    - name: slicemk
+      url-base: https://github.com/slicemk
   projects:
     - name: zmk
-      remote: talf301
-      revision: repeatrollfix-tapdance-macro-mouse-dongle
+      remote: slicemk
+      revision: dongle-pr
       import: app/west.yml
   self:
     path: config
