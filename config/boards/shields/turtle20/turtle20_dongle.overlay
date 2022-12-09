@@ -5,7 +5,7 @@
  */
 
 #include "turtle20.dtsi"
-
+/*
 / {
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-direct";
@@ -13,3 +13,4 @@
 		input-gpios = <&gpio0 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 	};
 };
+*/
