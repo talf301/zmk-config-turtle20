@@ -23,5 +23,3 @@ include:
     shield: turtle20_norm_left
   - board: seeeduino_xiao_ble
     shield: turtle20_norm_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
