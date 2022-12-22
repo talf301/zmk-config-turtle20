@@ -159,8 +159,8 @@
 		};
        		alpha2 {
 		bindings = <
-		 	 	&kp Q 		&kp X		&kp V	 	 	&kp Y    	&kp J			&kp P 		
-		&kp Z	 	&kp W 		&kp B		&kp F 			&kp M 		&kp K			&kp DOT		&kp SQT 
+		 	 	&kp Q 		&kp X		&kp V	 	 	&kp Y    	&kp J			&kp FSLH 		
+		&kp Z	 	&kp W 		&kp B		&kp F 	&kp COLON		&kp COMMA  &kp P 		&kp K			&kp DOT		&kp SQT 
 			 	 		 		&sk LSHIFT 		&none &none &sl AL2U	
 		>;
 		};
