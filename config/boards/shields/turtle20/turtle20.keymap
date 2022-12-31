@@ -30,6 +30,29 @@
 #define BT 6	
 #define AL2U 7
 / {
+combos {
+	compatible = "zmk,combos";
+	combo_bkspc {
+	    timeout-ms = <10>;
+        key-positions = <12 10>;
+        bindings = <BKSP>;
+	};
+    combo_enter {
+        timeout-ms = <10>;
+        key-positions = <13 11>;
+        bindings = <RET>;
+    };
+    combo_tab {
+        timeout-ms = <10>;
+        key-positions = <1 3>;
+        bindings = <TAB>;
+    };
+    combo_esc {
+        timeout-ms = <10>;
+        key-positions = <2 4>;
+        bindings = <ESC>;
+    };
+};
 /*
     combos {
         compatible = "zmk,combos";
