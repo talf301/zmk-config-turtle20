@@ -176,14 +176,14 @@ combos {
        		alpha1 {
 		bindings = <
 		 		&hm_l LCTL L 	&hm_l LALT G 	&hm_l LGUI D		&hm_r RGUI H 	&hm_r RALT U    	&hm_r RCTL O	  
-		&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R	&hl_l SYS T &kp F       &kp M	 	&hl_r SYS N    	&hl_r SM1 E   		&hl_r SM2 A 	&hl_r NM1 C
+		&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R	&hl_l SYS T &none       &none	 	&hl_r SYS N    	&hl_r SM1 E   		&hl_r SM2 A 	&hl_r NM1 C
 			 	 		 		&mt LC(LS(LALT)) SPC &key_repeat  &caps_alpha2macro	&alpha2macro	 	
 		>;
 		};
        		alpha2 {
 		bindings = <
-		 	 	&kp Q 		&kp X		&kp V	 	 	&kp Y    	&kp J			&kp FSLH 		
-		&kp Z	 	&kp W 		&kp B		&kp F 	&kp COLON		&kp COMMA  &kp P 		&kp K			&kp DOT		&kp SQT 
+		 	 	&kp Q 		&kp X		&kp V	 	 	&kp Y    	&kp J			&kp P 		
+		&kp Z	 	&kp W 		&kp B		&kp F 	&none		&none  &kp M 		&kp K			&kp COMMA	&kp DOT 
 			 	 		 		&sk LSHIFT 		&none &none &sl AL2U	
 		>;
 		};
@@ -191,14 +191,14 @@ combos {
        		sym1 {
 		bindings = <
 		 		&kp LA(N3)   	&kp LS(N3)	&kp DLLR	    	&kp LS(COMMA)	&kp LS(DOT)		&kp CARET	
-		&kp GRAVE	&kp TILDE 	&kp MINUS      	&kp BSLH	 	&kp LBKT	&kp RBKT	 	&kp PIPE 	&kp SLASH
+		&kp GRAVE	&kp TILDE 	&kp MINUS      	&kp BSLH &none &none	 	&kp LBKT	&kp RBKT	 	&kp PIPE 	&kp SLASH
 				  				&trans  		&trans		&trans  	&trans
 		>;
 		};
 		sym2 {
 		bindings = <
 				&kp ATSN	&td LA(RBKT) LA(LS(RBKT))	&td  LA(LBKT) LA(LS(LBKT))	&kp LPRN	&kp RPRN 	&kp SEMI 	
-		&kp STAR  	&kp PRCNT	&td QMARK EXCL       		&kp DQT   			&kp LBRC  	&kp RBRC	&kp AMPS	&kp COLON 
+		&kp STAR  	&kp PRCNT	&td QMARK EXCL       		&kp DQT   	&none &none		&kp LBRC  	&kp RBRC	&kp AMPS	&kp COLON 
 		 		&trans 		&trans  			&trans 	&none &none &trans 		
 
 		>;
@@ -206,16 +206,16 @@ combos {
 
 		num {
 		bindings = <
-				&hm_l LCTL DOT 	&hm_l LALT N0	&hm_l LGUI N1 		&hm_r RGUI N2 	&hm_r RALT N3		&hm_r RCTL N4	
-		&kp MINUS	&kp PLUS 	&kp N5		&kp N6			&kp N7		&kp N8			&kp N9   	&kp EQUAL
-							&sr LSHIFT AL1 		&trans 		&trans 			&trans  	 
+				&hm_l LCTL LBKT 	&hm_l LALT RBKT	&hm_l LGUI PLUS 		&hm_r RGUI N4 	&hm_r RALT N5		&hm_r RCTL N6	
+		&kp SEMI	&kp N7 	&kp N8		&kp N9	&none &none		&kp N1		&kp N2			&kp N3   	&kp MINUS
+							&sr LSHIFT AL1 		&trans 		&kp DOT 			&kp N0  	 
 		>;
 		};
 
 		sys {
 		bindings = <
 				 	&kp ESC			&kp LC(LS(TAB)) 	&kp RC(TAB)		&td LG(V) LG(C) 	&kp UP 		&td Q BKSP 			
-		&td LG(GRAVE) TAB	&td HOME DEL		&td END LG(LBKT) 	&kp LG(RBKT)		&td TAB LEFT  		&kp DOWN 	&td  LC(LG(LS(N4))) RIGHT 	&kp RET 
+		&td LG(GRAVE) TAB	&td HOME DEL		&td END LG(LBKT) &none &none	&kp LG(RBKT)		&td TAB LEFT  		&kp DOWN 	&td  LC(LG(LS(N4))) RIGHT 	&kp RET 
 		 			 		 				&sr LSHIFT AL1 		&none &none &kp RGUI		
 		>;
 		};
@@ -231,7 +231,7 @@ combos {
        		alpha2cap {
 		bindings = <
 		 	 	&kp LS(Q)	&kp LS(X)	&kp LS(V) 	 	&kp LS(Y)    	&kp LS(J)		&kp LS(P)	
-		&kp LS(Z) 	&kp LS(W) 	&kp LS(B)	&kp LS(F)		&kp LS(M)	&kp LS(K)	&kp LS(SQT)	&kp COMMA 
+		&kp LS(Z) 	&kp LS(W) 	&kp LS(B)	&kp LS(F) &none &none	&kp LS(M)	&kp LS(K)	&kp SQT	&kp LS(SQT) 
 			 	&trans 		&trans 			&trans	&none
 		>;
 		};
